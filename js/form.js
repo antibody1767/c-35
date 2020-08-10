@@ -16,10 +16,10 @@ display(){
        var name = input.value();
        playerCount= playerCount+ 1;
        player.update(name);
-       player.updateCount(platerCount);
-       var greeting = createElement("h2");
+       player.updateCount(playerCount);
+       var greeting = createElement("h3");
        greeting.html("welcome, "+name+" the game will start in a few seconds");
-       greeting.position(180,230);
+       greeting.position(50,230);
    });
 
 
